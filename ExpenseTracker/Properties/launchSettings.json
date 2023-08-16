@@ -1,5 +1,27 @@
 {
   "profiles": {
+    "Debug - Android Emulator": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "nativeDebugging": false,
+      "adbDebugging": false
+    },
+    "Debug - iOS Simulator": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "nativeDebugging": false,
+      "adbDebugging": false
+    },
     "Windows Machine": {
       "commandName": "MsixPackage",
       "nativeDebugging": false
