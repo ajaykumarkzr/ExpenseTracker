@@ -31,7 +31,10 @@ namespace ExpenseTracker.ViewModels
                     Application.Current.MainPage = new HomePage();
                 }
             }
-            catch (Exception ex) { }
+            catch (Exception ex) 
+            {
+                Console.WriteLine(ex);
+            }
             
         }
         #endregion
