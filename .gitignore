@@ -30,6 +30,12 @@ DerivedData/
 *.dSYM.zip
 *.dSYM
 
+#Visual Studio cache/options directory
+.vs/
+
+#Build results
+**/bin/
+**/obj/
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
