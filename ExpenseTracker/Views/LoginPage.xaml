@@ -6,10 +6,17 @@
     <VerticalStackLayout>
         <Entry Placeholder="Username" Text="{Binding Credentials.Username, Mode=TwoWay}" />
         <Entry IsPassword="True" Placeholder="Password" Text="{Binding Credentials.Password, Mode=TwoWay}" />
-        <Button 
-            Text="Login"
-            Command="{Binding LoginCommand}"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <StackLayout Orientation="Horizontal">
+            <Button 
+                Text="Login"
+                Command="{Binding LoginCommand}"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Button 
+                Text="Register"
+                Command="{Binding RegisterCommand}"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </StackLayout>
     </VerticalStackLayout>
 </ContentPage>

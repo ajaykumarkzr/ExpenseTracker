@@ -1,6 +1,5 @@
 ﻿using SQLite;
 using System.Linq.Expressions;
-using static Android.Content.ClipData;
 
 namespace ExpenseTracker.Data
 {

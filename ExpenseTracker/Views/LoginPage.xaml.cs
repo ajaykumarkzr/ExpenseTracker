@@ -1,3 +1,5 @@
+using ExpenseTracker.Data;
+
 namespace ExpenseTracker.Views;
 
 public partial class LoginPage : ContentPage

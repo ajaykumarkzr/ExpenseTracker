@@ -21,7 +21,10 @@ public static class MauiProgram
 #endif
 
 		builder.Services.AddSingleton<DatabaseContext>();
+		builder.Services.AddSingleton<LoginPage>();
 
-		return builder.Build();
+		var app = builder.Build();
+		
+		return app;
 	}
 }
